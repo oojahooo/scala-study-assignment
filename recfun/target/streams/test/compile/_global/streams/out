@@ -1,0 +1,69 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/oojahooo/Dropbox/KOREAUNIV/전산학술부/스터디/Scala 스터디/Scala/assignments/recfun/src/test/scala/recfun/CountChangeSuite.scala:3:8: object FunSuite is not a member of package org.scalatest[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean funsuite?[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.FunSuite[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/oojahooo/Dropbox/KOREAUNIV/전산학술부/스터디/Scala 스터디/Scala/assignments/recfun/src/test/scala/recfun/CountChangeSuite.scala:6:22: object junit is not a member of package org.scalatest[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.junit.JUnitRunner[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/oojahooo/Dropbox/KOREAUNIV/전산학술부/스터디/Scala 스터디/Scala/assignments/recfun/src/test/scala/recfun/CountChangeSuite.scala:9:32: not found: type FunSuite[0m
+[0m[[0m[31merror[0m] [0m[0mclass CountChangeSuite extends FunSuite {[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/oojahooo/Dropbox/KOREAUNIV/전산학술부/스터디/Scala 스터디/Scala/assignments/recfun/src/test/scala/recfun/CountChangeSuite.scala:8:18: not found: type JUnitRunner[0m
+[0m[[0m[31merror[0m] [0m[0m@RunWith(classOf[JUnitRunner])[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/oojahooo/Dropbox/KOREAUNIV/전산학술부/스터디/Scala 스터디/Scala/assignments/recfun/src/test/scala/recfun/CountChangeSuite.scala:11:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("countChange: example given in instructions") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/oojahooo/Dropbox/KOREAUNIV/전산학술부/스터디/Scala 스터디/Scala/assignments/recfun/src/test/scala/recfun/CountChangeSuite.scala:12:37: value === is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(countChange(4,List(1,2)) === 3)[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/oojahooo/Dropbox/KOREAUNIV/전산학술부/스터디/Scala 스터디/Scala/assignments/recfun/src/test/scala/recfun/CountChangeSuite.scala:15:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("countChange: sorted CHF") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/oojahooo/Dropbox/KOREAUNIV/전산학술부/스터디/Scala 스터디/Scala/assignments/recfun/src/test/scala/recfun/CountChangeSuite.scala:16:58: value === is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(countChange(300,List(5,10,20,50,100,200,500)) === 1022)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/oojahooo/Dropbox/KOREAUNIV/전산학술부/스터디/Scala 스터디/Scala/assignments/recfun/src/test/scala/recfun/CountChangeSuite.scala:19:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("countChange: no pennies") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/oojahooo/Dropbox/KOREAUNIV/전산학술부/스터디/Scala 스터디/Scala/assignments/recfun/src/test/scala/recfun/CountChangeSuite.scala:20:58: value === is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(countChange(301,List(5,10,20,50,100,200,500)) === 0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/oojahooo/Dropbox/KOREAUNIV/전산학술부/스터디/Scala 스터디/Scala/assignments/recfun/src/test/scala/recfun/CountChangeSuite.scala:23:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("countChange: unsorted CHF") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/oojahooo/Dropbox/KOREAUNIV/전산학술부/스터디/Scala 스터디/Scala/assignments/recfun/src/test/scala/recfun/CountChangeSuite.scala:24:58: value === is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(countChange(300,List(500,5,50,100,20,200,10)) === 1022)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/oojahooo/Dropbox/KOREAUNIV/전산학술부/스터디/Scala 스터디/Scala/assignments/recfun/src/test/scala/recfun/PascalSuite.scala:3:8: object FunSuite is not a member of package org.scalatest[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean funsuite?[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.FunSuite[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/oojahooo/Dropbox/KOREAUNIV/전산학술부/스터디/Scala 스터디/Scala/assignments/recfun/src/test/scala/recfun/PascalSuite.scala:6:22: object junit is not a member of package org.scalatest[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.junit.JUnitRunner[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/oojahooo/Dropbox/KOREAUNIV/전산학술부/스터디/Scala 스터디/Scala/assignments/recfun/src/test/scala/recfun/PascalSuite.scala:9:27: not found: type FunSuite[0m
+[0m[[0m[31merror[0m] [0m[0mclass PascalSuite extends FunSuite {[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/oojahooo/Dropbox/KOREAUNIV/전산학술부/스터디/Scala 스터디/Scala/assignments/recfun/src/test/scala/recfun/PascalSuite.scala:8:18: not found: type JUnitRunner[0m
+[0m[[0m[31merror[0m] [0m[0m@RunWith(classOf[JUnitRunner])[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/oojahooo/Dropbox/KOREAUNIV/전산학술부/스터디/Scala 스터디/Scala/assignments/recfun/src/test/scala/recfun/PascalSuite.scala:11:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("pascal: col=0,row=2") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/oojahooo/Dropbox/KOREAUNIV/전산학술부/스터디/Scala 스터디/Scala/assignments/recfun/src/test/scala/recfun/PascalSuite.scala:12:24: value === is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(pascal(0,2) === 1)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/oojahooo/Dropbox/KOREAUNIV/전산학술부/스터디/Scala 스터디/Scala/assignments/recfun/src/test/scala/recfun/PascalSuite.scala:15:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("pascal: col=1,row=2") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/oojahooo/Dropbox/KOREAUNIV/전산학술부/스터디/Scala 스터디/Scala/assignments/recfun/src/test/scala/recfun/PascalSuite.scala:16:24: value === is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(pascal(1,2) === 2)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/oojahooo/Dropbox/KOREAUNIV/전산학술부/스터디/Scala 스터디/Scala/assignments/recfun/src/test/scala/recfun/PascalSuite.scala:19:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("pascal: col=1,row=3") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/oojahooo/Dropbox/KOREAUNIV/전산학술부/스터디/Scala 스터디/Scala/assignments/recfun/src/test/scala/recfun/PascalSuite.scala:20:24: value === is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(pascal(1,3) === 3)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m22 errors found[0m

@@ -1,0 +1,26 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(recfun.PascalSuite, org.scalatest.tools.Framework$$anon$1@b6ffcae, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(recfun.CountChangeSuite, org.scalatest.tools.Framework$$anon$1@b6ffcae, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(recfun.BalanceSuite, org.scalatest.tools.Framework$$anon$1@b6ffcae, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPascalSuite:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- pascal: col=0,row=2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- pascal: col=1,row=2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- pascal: col=1,row=3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBalanceSuite:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- balance: '(if (zero? x) max (/ 1 x))' is balanced[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- balance: 'I told him ...' is balanced[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- balance: ':-)' is unbalanced[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- balance: counting is not enough[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCountChangeSuite:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- countChange: example given in instructions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- countChange: sorted CHF[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- countChange: no pennies[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- countChange: unsorted CHF[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 394 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 11[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 3, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 11, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	recfun.CountChangeSuite[0m
+[0m[[0m[0mdebug[0m] [0m[0m	recfun.PascalSuite[0m
+[0m[[0m[0mdebug[0m] [0m[0m	recfun.BalanceSuite[0m

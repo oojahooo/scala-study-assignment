@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/oojahooo/Dropbox/KOREAUNIV/전산학술부/스터디/Scala 스터디/Scala/assignments/recfun/src/main/scala/recfun/Main.scala:9:15: missing argument list for method pascal in object Main[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `pascal _` or `pascal(_,_)` instead of `pascal`.; incompatible interpolation method s[0m
+[0m[[0m[31merror[0m] [0m[0m        print(s"$pascal(col, row) ")[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/oojahooo/Dropbox/KOREAUNIV/전산학술부/스터디/Scala 스터디/Scala/assignments/recfun/src/main/scala/recfun/Main.scala:5:33: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `main`'s return type[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def main(args: Array[String]) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
